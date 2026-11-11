@@ -1,0 +1,6 @@
+jogador.c: In function ‘printEstadoJogador’:
+jogador.c:337:54: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+  337 |     printf("- %s: casa %d | forca %d | xp %d | ouro %d\n", j->nome, j->forca, j->xp, j->ouro);
+      |                                                     ~^
+      |                                                      |
+      |                                                      int
