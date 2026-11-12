@@ -1,6 +1,6 @@
-Arquivos Esperados Corretos: 5 de 9
-Pastas Compiladas Corretamente: 3 de 6 
-Pastas Linkadas Corretamente: 1 de 6
+Arquivos Esperados Corretos: 7 de 9
+Pastas Compiladas Corretamente: 5 de 6 
+Pastas Linkadas Corretamente: 3 de 6
 Teste main
   - Resultados corretos: 0 de 10
   - Valgrinds corretos: 0 de 10
@@ -10,20 +10,20 @@ Teste completo
   - Valgrinds corretos: 0 de 10
 Nota de Gustavo para o teste completo: 0
 Teste jogador
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Gustavo para o teste jogador: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Gustavo para o teste jogador: 1.50
 Teste mapa
   - Resultados corretos: 0 de 10
   - Valgrinds corretos: 0 de 10
 Nota de Gustavo para o teste mapa: 0
 Teste celula
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Gustavo para o teste celula: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Gustavo para o teste celula: .50
 Teste acao_monstro
-  - Resultados corretos: 0 de 10
-  - Valgrinds corretos: 0 de 10
-Nota de Gustavo para o teste acao_monstro: 0
-Nota de Gustavo: 0+(0)+(0)+(0)+(0)+(0)+(0)
-Nota de Gustavo: 0
+  - Resultados corretos: 10 de 10
+  - Valgrinds corretos: 10 de 10
+Nota de Gustavo para o teste acao_monstro: .50
+Nota de Gustavo: 0+(1.50)+(.50)+(0)+(0)+(0)+(.50)
+Nota de Gustavo: 2.50

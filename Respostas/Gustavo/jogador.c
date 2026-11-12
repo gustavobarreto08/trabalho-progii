@@ -4,8 +4,8 @@
 #include <string.h>
 
 struct Jogador{
-    char nome[51];
-    char cor[16];
+    char nome[MAX_TAM_NOME_JOGADOR];
+    char cor[MAX_TAM_COR_JOGADOR];
     int forca;
     int posicao;
     int xp;
@@ -70,9 +70,11 @@ Jogador *leJogador(){
     char nome[51];
     char cor[16];
     int forca;
+    scanf("\n");
     scanf("%[^\n]\n", nome);
     scanf("%[^\n]\n", cor);
     scanf("%d", &forca);
+    scanf("\n");
     Jogador *j = criaJogador(nome, cor, forca);
     return j;
 }
@@ -121,8 +123,8 @@ int comparaNomeJogador(void *dado, void *nome){
  * @return Valor negativo se d1 deve vir antes de d2, positivo se deve vir depois e 0 se forem equivalentes
  */
 int comparaOrdJogador(const void *d1, const void *d2){
-    Jogador *j1 = (Jogador*) d1;
-    Jogador *j2 = (Jogador*) d2;
+    const Jogador *j1 = *(Jogador* const*) d1;
+    const Jogador *j2 = *(Jogador* const*) d2;
 
     if(j1->posicao > j2->posicao){
         return -1;
@@ -334,7 +336,7 @@ void incrementaMonstrosDerrotadosJogador(Jogador *j){
  */
 void printEstadoJogador(void *dado){
     Jogador *j = (Jogador*) dado;
-    printf("- %s: casa %d | forca %d | xp %d | ouro %d\n", j->nome, j->forca, j->xp, j->ouro);
+    printf("- %s: casa %d | forca %d | xp %d | ouro %d\n", j->nome, j->posicao, j->forca, j->xp, j->ouro);
 }
 
 /**
