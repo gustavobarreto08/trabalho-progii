@@ -76,10 +76,10 @@
 - Monstros derrotados: 2
 - Situacao: VENCEDOR MARIA
 -------------------------------
-- LUCAS: jogadas 3 | disputas vencidas 4 | forca 3 | xp 0 | ouro 3 
-- MARIA: jogadas 3 | disputas vencidas 3 | forca 3 | xp 5 | ouro 0 
-- NINA: jogadas 2 | disputas vencidas 1 | forca 2 | xp 5 | ouro 0 
-- OTAVIO: jogadas 2 | disputas vencidas 1 | forca 4 | xp 0 | ouro 0 
-- PAULA: jogadas 2 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0 
-- RAFAEL: jogadas 2 | disputas vencidas 0 | forca 1 | xp 0 | ouro 0 
+- LUCAS: jogadas 3 | disputas vencidas 4 | forca 3 | xp 0 | ouro 3
+- MARIA: jogadas 3 | disputas vencidas 3 | forca 3 | xp 5 | ouro 0
+- NINA: jogadas 2 | disputas vencidas 1 | forca 2 | xp 5 | ouro 0
+- OTAVIO: jogadas 2 | disputas vencidas 1 | forca 4 | xp 0 | ouro 0
+- PAULA: jogadas 2 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+- RAFAEL: jogadas 2 | disputas vencidas 0 | forca 1 | xp 0 | ouro 0
 ===============================

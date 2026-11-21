@@ -9,7 +9,7 @@ struct Avanca{
 Avanca* criaCasaAvanca(int qtdCasas){
     Avanca *a = malloc(sizeof(struct Avanca));
     if(a == NULL){
-        perror("ERRO ALOC VOLTA\n");
+        perror("ERRO ALOC AVANCA\n");
         exit(1);
     }
     a->qtdCasas = qtdCasas;

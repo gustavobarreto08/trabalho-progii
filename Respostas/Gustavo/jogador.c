@@ -31,6 +31,12 @@ int ComparaNomes(char *nome1, char *nome2){
         }
         i++;
     }
+    if(nome1[i] < nome2[i]){
+        return -1;
+    }
+    else if(nome1[i] > nome2[i]){
+        return 1;
+    }
     return 0;
 }
 
@@ -357,7 +363,7 @@ void printRankingJogador(Jogador *j, int colocacao){
  */
 void printRelatorioJogador(void *dado){
     Jogador *j = (Jogador*) dado;
-    printf("- %s: jogadas %d | disputas vencidas %d | forca %d | xp %d | ouro %d \n", j->nome, j->jogadas, j->disputasVencidas, j->forca, j->xp, j->ouro);
+    printf("- %s: jogadas %d | disputas vencidas %d | forca %d | xp %d | ouro %d\n", j->nome, j->jogadas, j->disputasVencidas, j->forca, j->xp, j->ouro);
 }
 
 /**

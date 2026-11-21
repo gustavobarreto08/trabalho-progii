@@ -32,7 +32,7 @@ int RetornaMonstrosDerrotados(Jogo *j);
 
 void ImprimeEstadoPartida(Jogo *j);
 
-void ImprimeRankingPatida(Jogo *j);
+void ImprimeRankingPartida(Jogo *j);
 
 void ImprimeRelatorioPartida(Jogo *j);
 

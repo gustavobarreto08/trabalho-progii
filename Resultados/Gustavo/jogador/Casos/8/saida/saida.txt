@@ -70,8 +70,8 @@
 - Monstros derrotados: 0
 - Situacao: VENCEDOR BRUNA
 -------------------------------
-- TIAGO: jogadas 5 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0 
-- BRUNA: jogadas 5 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0 
-- CAIO: jogadas 4 | disputas vencidas 1 | forca 3 | xp 0 | ouro 0 
-- AMANDA: jogadas 4 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0 
+- TIAGO: jogadas 5 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+- BRUNA: jogadas 5 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
+- CAIO: jogadas 4 | disputas vencidas 1 | forca 3 | xp 0 | ouro 0
+- AMANDA: jogadas 4 | disputas vencidas 0 | forca 3 | xp 0 | ouro 0
 ===============================

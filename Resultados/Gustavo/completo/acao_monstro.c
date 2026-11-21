@@ -19,6 +19,10 @@ struct Monstro{
  */
 Monstro *criaMonstro(char *nome, int forca, int xp){
     Monstro *m = malloc(sizeof(struct Monstro));
+    if(m == NULL){
+        perror("ERRO ALOC MONSTRO\n");
+        exit(1);
+    }
     strcpy(m->nome, nome);
     m->forca = forca;
     m->xp = xp;

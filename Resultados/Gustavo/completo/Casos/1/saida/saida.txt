@@ -32,7 +32,7 @@
 - Monstros derrotados: 0
 - Situacao: VENCEDOR BRUNO
 -------------------------------
-- ANA: jogadas 8 | disputas vencidas 6 | forca 7 | xp 0 | ouro 0 
-- BRUNO: jogadas 8 | disputas vencidas 3 | forca 5 | xp 0 | ouro 25 
-- CARLA: jogadas 7 | disputas vencidas 0 | forca 4 | xp 0 | ouro 0 
+- ANA: jogadas 8 | disputas vencidas 6 | forca 7 | xp 0 | ouro 0
+- BRUNO: jogadas 8 | disputas vencidas 3 | forca 5 | xp 0 | ouro 25
+- CARLA: jogadas 7 | disputas vencidas 0 | forca 4 | xp 0 | ouro 0
 ===============================

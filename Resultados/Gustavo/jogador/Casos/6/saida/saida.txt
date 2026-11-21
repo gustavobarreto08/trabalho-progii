@@ -69,5 +69,5 @@
 - Monstros derrotados: 0
 - Situacao: VENCEDOR SOLO
 -------------------------------
-- SOLO: jogadas 3 | disputas vencidas 0 | forca 1 | xp 0 | ouro 5 
+- SOLO: jogadas 3 | disputas vencidas 0 | forca 1 | xp 0 | ouro 5
 ===============================

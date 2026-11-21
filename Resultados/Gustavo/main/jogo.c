@@ -47,7 +47,7 @@ void InsereJogadorVetorJogadores(Jogo *j, Jogador *jogador){
 
 int JaExisteJogador(Jogo *j, Jogador *jogador){
     for(int i = 0; i < j->qtdJogadores; i++){
-        if(comparaNomeJogador(j->jogadores[i], jogador) == 1){
+        if(comparaNomeJogador(j->jogadores[i], obtemNomeJogador(jogador)) == 1){
             return 1;
         }
     }
@@ -130,8 +130,12 @@ void ImprimeEstadoPartida(Jogo *j){
     printf("===============================\n");
 }
 
-void ImprimeRankingPatida(Jogo *j){
+void ImprimeRankingPartida(Jogo *j){
     Jogador **copia = malloc(j->qtdJogadores * sizeof(*(j->jogadores)));
+    if(copia == NULL){
+        perror("ERRO ALOC COPIA JOGADORES\n");
+        exit(1);
+    }
     for(int i = 0; i < j->qtdJogadores; i++){
         copia[i] = j->jogadores[i];
     }
@@ -168,9 +172,7 @@ void ImprimeRelatorioPartida(Jogo *j){
 void LeMapa(Mapa *mapa){
     char celula[100];
     scanf("INICIO MAPA\n");
-    while(1){
-
-        scanf("%s", celula);
+    while(scanf("%s", celula) == 1){
 
         if(strcmp(celula, "OURO") == 0){
 
@@ -238,7 +240,7 @@ char RealizaDisputa(Jogo *j, Jogador *desafiante, Jogador *ocupante, int posicao
     else
     {
         incrementaDisputasVencidasJogador(ocupante);
-        retiraJogadorMapa(j->mapa, desafiante);
+        retiraJogadorMapa(j->mapa, desafiante); //IMPORTANTE: PERMITE QUE O JOGADOR PARE NA MESMA POSICAO QUE ESTAVA ANTES 
         recuaJogadorMapa(j->mapa, desafiante, posicaoDisputa);
         return 'O';
     }
@@ -279,7 +281,7 @@ void RealizaDeslocamento(Jogo *j, Jogador *jogador, int deslocamento){
 }
 
 void ExecutaRolagem(Jogo *j, int nRolagens, int *jogadorDaVez){
-    int qtdCasasDado = 0;       //muda para ponteiro
+    int qtdCasasDado = 0;    
     int deslocamento = 0;
     Celula *cDisputa = NULL;
     for(int i = 0; i < nRolagens; i++){
@@ -333,9 +335,8 @@ void ExecutaJogo(Jogo *j){
     jogadorDaVez = &a;
     char opcao[40];
     LeMapa(j->mapa);
-    while(1){
+    while(scanf("%s", opcao) == 1){
 
-        scanf("%s", opcao);
 
         if(strcmp(opcao, "J") == 0){
 
@@ -352,7 +353,7 @@ void ExecutaJogo(Jogo *j){
 
             int nRolagens;
             scanf("%d\n", &nRolagens);
-            if(j->vencedor != NULL){
+            if(j->vencedor != NULL || j->qtdJogadores == 0){
                 continue;
             }
             ExecutaRolagem(j, nRolagens, jogadorDaVez);
@@ -361,10 +362,9 @@ void ExecutaJogo(Jogo *j){
         else if(strcmp(opcao, "E") == 0){
 
             scanf("\n");
-            scanf("%[^\n]\n", opcao);
-
+            scanf("%39s\n", opcao);
             if(strcmp(opcao, "RANKING") == 0){
-                ImprimeRankingPatida(j);
+                ImprimeRankingPartida(j);
             }
             else if(strcmp(opcao, "RELATORIO") == 0){
                 ImprimeRelatorioPartida(j);

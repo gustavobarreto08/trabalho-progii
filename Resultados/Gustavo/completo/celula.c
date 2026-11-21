@@ -28,6 +28,10 @@ struct Celula{
  */
 Celula *criaCelula(void *acao, func_ptr_executa executa, func_ptr_imprime imprime, func_ptr_desaloca desaloca){
     Celula *c = malloc(sizeof(struct Celula));
+    if(c == NULL){
+        perror("ERRO ALOC CELULA\n");
+        exit(1);
+    }
     c->ocupante = NULL;
     c->acao = acao;
     c->executa = executa;

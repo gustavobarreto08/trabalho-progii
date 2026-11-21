@@ -1,24 +1,24 @@
 jogador.c: In function ‘comparaOrdJogador’:
-jogador.c:153:36: warning: passing argument 1 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
-  153 |                 if( ComparaNomes(j1->nome, j2->nome) < 0){
+jogador.c:159:36: warning: passing argument 1 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  159 |                 if( ComparaNomes(j1->nome, j2->nome) < 0){
       |                                  ~~^~~~~~
 jogador.c:23:24: note: expected ‘char *’ but argument is of type ‘const char *’
    23 | int ComparaNomes(char *nome1, char *nome2){
       |                  ~~~~~~^~~~~
-jogador.c:153:46: warning: passing argument 2 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
-  153 |                 if( ComparaNomes(j1->nome, j2->nome) < 0){
+jogador.c:159:46: warning: passing argument 2 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  159 |                 if( ComparaNomes(j1->nome, j2->nome) < 0){
       |                                            ~~^~~~~~
 jogador.c:23:37: note: expected ‘char *’ but argument is of type ‘const char *’
    23 | int ComparaNomes(char *nome1, char *nome2){
       |                               ~~~~~~^~~~~
-jogador.c:156:41: warning: passing argument 1 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
-  156 |                 else if( ComparaNomes(j1->nome, j2->nome) > 0){
+jogador.c:162:41: warning: passing argument 1 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  162 |                 else if( ComparaNomes(j1->nome, j2->nome) > 0){
       |                                       ~~^~~~~~
 jogador.c:23:24: note: expected ‘char *’ but argument is of type ‘const char *’
    23 | int ComparaNomes(char *nome1, char *nome2){
       |                  ~~~~~~^~~~~
-jogador.c:156:51: warning: passing argument 2 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
-  156 |                 else if( ComparaNomes(j1->nome, j2->nome) > 0){
+jogador.c:162:51: warning: passing argument 2 of ‘ComparaNomes’ discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+  162 |                 else if( ComparaNomes(j1->nome, j2->nome) > 0){
       |                                                 ~~^~~~~~
 jogador.c:23:37: note: expected ‘char *’ but argument is of type ‘const char *’
    23 | int ComparaNomes(char *nome1, char *nome2){
