@@ -1,41 +1,15 @@
-==288042== Memcheck, a memory error detector
-==288042== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
-==288042== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
-==288042== Command: Resultados/Gustavo/mapa/prog Resultados/Gustavo/mapa/Casos/1
-==288042== Parent PID: 288041
-==288042== 
-==288042== Invalid read of size 8
-==288042==    at 0x40014B1: executaAcaoCelula (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==    by 0x4002533: executaJogada (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==    by 0x40026CB: executaRolagemJogo (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==    by 0x4002EEE: main (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
-==288042== 
-==288042== 
-==288042== Process terminating with default action of signal 11 (SIGSEGV)
-==288042==  Access not within mapped region at address 0x8
-==288042==    at 0x40014B1: executaAcaoCelula (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==    by 0x4002533: executaJogada (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==    by 0x40026CB: executaRolagemJogo (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==    by 0x4002EEE: main (in /home/gustavo-barreto/Prog II/trabalho-progii/Resultados/Gustavo/mapa/prog)
-==288042==  If you believe this happened as a result of a stack
-==288042==  overflow in your program's main thread (unlikely but
-==288042==  possible), you can try to increase the size of the
-==288042==  main thread stack using the --main-stacksize= flag.
-==288042==  The main thread stack size used in this run was 8388608.
-==288042== 
-==288042== HEAP SUMMARY:
-==288042==     in use at exit: 9,268 bytes in 30 blocks
-==288042==   total heap usage: 43 allocs, 13 frees, 9,820 bytes allocated
-==288042== 
-==288042== LEAK SUMMARY:
-==288042==    definitely lost: 0 bytes in 0 blocks
-==288042==    indirectly lost: 0 bytes in 0 blocks
-==288042==      possibly lost: 0 bytes in 0 blocks
-==288042==    still reachable: 9,268 bytes in 30 blocks
-==288042==         suppressed: 0 bytes in 0 blocks
-==288042== Reachable blocks (those to which a pointer was found) are not shown.
-==288042== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==288042== 
-==288042== For lists of detected and suppressed errors, rerun with: -s
-==288042== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==1306763== Memcheck, a memory error detector
+==1306763== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
+==1306763== Using Valgrind-3.26.0 and LibVEX; rerun with -h for copyright info
+==1306763== Command: Resultados/Gustavo/mapa/prog Resultados/Gustavo/mapa/Casos/1
+==1306763== Parent PID: 1306762
+==1306763== 
+==1306763== 
+==1306763== HEAP SUMMARY:
+==1306763==     in use at exit: 0 bytes in 0 blocks
+==1306763==   total heap usage: 50 allocs, 50 frees, 10,180 bytes allocated
+==1306763== 
+==1306763== All heap blocks were freed -- no leaks are possible
+==1306763== 
+==1306763== For lists of detected and suppressed errors, rerun with: -s
+==1306763== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

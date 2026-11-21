@@ -1,13 +1,13 @@
 =========== ESTADO ============
 [INICIO] <- SOLO
-[0] OURO 5
-[1] MONSTRO SLIME (F:1 XP:3)
-[2] VAZIA
-[3] AVANCA 2
-[4] ITEM BOTA (P:5 F:+1)
-[5] VOLTA 2
-[6] MONSTRO GOLEM (F:3 XP:20)
-[7] OURO 7
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
 [FIM]
 -------------------------------
 - SOLO: casa 0 | forca 1 | xp 0 | ouro 0
@@ -15,14 +15,14 @@
 ===============================
 =========== ESTADO ============
 [INICIO]
-[0] OURO 5
-[1] MONSTRO SLIME (F:1 XP:3)
-[2] VAZIA
-[3] AVANCA 2
-[4] ITEM BOTA (P:5 F:+1)
-[5] VOLTA 2
-[6] MONSTRO GOLEM (F:3 XP:20)
-[7] OURO 7
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
 [FIM] <- SOLO
 -------------------------------
 - SOLO: casa 9 | forca 1 | xp 0 | ouro 5
@@ -30,14 +30,14 @@
 ===============================
 =========== ESTADO ============
 [INICIO]
-[0] OURO 5
-[1] MONSTRO SLIME (F:1 XP:3)
-[2] VAZIA
-[3] AVANCA 2
-[4] ITEM BOTA (P:5 F:+1)
-[5] VOLTA 2
-[6] MONSTRO GOLEM (F:3 XP:20)
-[7] OURO 7
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
 [FIM] <- SOLO
 -------------------------------
 - SOLO: casa 9 | forca 1 | xp 0 | ouro 5
@@ -45,14 +45,14 @@
 ===============================
 =========== ESTADO ============
 [INICIO]
-[0] OURO 5
-[1] MONSTRO SLIME (F:1 XP:3)
-[2] VAZIA
-[3] AVANCA 2
-[4] ITEM BOTA (P:5 F:+1)
-[5] VOLTA 2
-[6] MONSTRO GOLEM (F:3 XP:20)
-[7] OURO 7
+[1] OURO 5
+[2] MONSTRO SLIME (F:1 XP:3)
+[3] VAZIA
+[4] AVANCA 2
+[5] ITEM BOTA (P:5 F:+1)
+[6] VOLTA 2
+[7] MONSTRO GOLEM (F:3 XP:20)
+[8] OURO 7
 [FIM] <- SOLO
 -------------------------------
 - SOLO: casa 9 | forca 1 | xp 0 | ouro 5

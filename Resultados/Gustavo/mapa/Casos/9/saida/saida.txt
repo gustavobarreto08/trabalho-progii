@@ -1,434 +1,434 @@
 =========== ESTADO ============
-[INICIO] <- KAUA
-[0] OURO 2 <- LIA
-[1] VAZIA
-[2] MONSTRO ESQUELETO1 (F:3 XP:5) <- IRIS
-[3] ITEM POCAO1 (P:3 F:+1) <- JULIA
-[4] AVANCA 2
-[5] VAZIA
-[6] VOLTA 3
-[7] OURO 4
-[8] VAZIA
-[9] MONSTRO ESQUELETO2 (F:4 XP:10)
-[10] ITEM POCAO2 (P:6 F:+1)
-[11] AVANCA 3
-[12] VAZIA
-[13] VOLTA 4
-[14] OURO 6
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1)
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
+[INICIO] <- LIA
+[1] OURO 2 <- HEITOR
+[2] VAZIA <- KAUA
+[3] MONSTRO ESQUELETO1 (F:3 XP:5) <- IRIS
+[4] ITEM POCAO1 (P:3 F:+1) <- JULIA
+[5] AVANCA 2
+[6] VAZIA
+[7] VOLTA 3
+[8] OURO 4
+[9] VAZIA
+[10] MONSTRO ESQUELETO2 (F:4 XP:10)
+[11] ITEM POCAO2 (P:6 F:+1)
+[12] AVANCA 3
+[13] VAZIA
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1)
+[19] AVANCA 1
+[20] VAZIA
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA
+[28] VOLTA 2
+[29] OURO 10
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA
+[42] VOLTA 4
 [FIM]
 -------------------------------
 - HEITOR: casa 1 | forca 4 | xp 0 | ouro 2
 - IRIS: casa 3 | forca 3 | xp 5 | ouro 0
 - JULIA: casa 4 | forca 5 | xp 0 | ouro 0
-- KAUA: casa 0 | forca 2 | xp 0 | ouro 0
-- LIA: casa 1 | forca 4 | xp 0 | ouro 2
+- KAUA: casa 2 | forca 2 | xp 0 | ouro 0
+- LIA: casa 0 | forca 4 | xp 0 | ouro 0
 - Situacao: EM ANDAMENTO
 ===============================
 =========== RANKING ===========
 1. JULIA (VERDE) | casa 4 | forca 5 | xp 0
 2. IRIS (AZUL) | casa 3 | forca 3 | xp 5
-3. HEITOR (VERMELHO) | casa 1 | forca 4 | xp 0
-4. LIA (PRETO) | casa 1 | forca 4 | xp 0
-5. KAUA (AMARELO) | casa 0 | forca 2 | xp 0
+3. KAUA (AMARELO) | casa 2 | forca 2 | xp 0
+4. HEITOR (VERMELHO) | casa 1 | forca 4 | xp 0
+5. LIA (PRETO) | casa 0 | forca 4 | xp 0
 ===============================
 =========== ESTADO ============
 [INICIO]
-[0] OURO 2 <- IRIS
-[1] VAZIA <- KAUA
-[2] MONSTRO ESQUELETO1 (F:3 XP:5)
-[3] ITEM POCAO1 (P:3 F:+1) <- LIA
-[4] AVANCA 2
-[5] VAZIA <- JULIA
-[6] VOLTA 3
-[7] OURO 4 <- HEITOR
-[8] VAZIA
-[9] MONSTRO ESQUELETO2 (F:4 XP:10)
-[10] ITEM POCAO2 (P:6 F:+1)
-[11] AVANCA 3
-[12] VAZIA
-[13] VOLTA 4
-[14] OURO 6
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1)
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
+[1] OURO 2
+[2] VAZIA <- IRIS
+[3] MONSTRO ESQUELETO1 (F:3 XP:5) <- LIA
+[4] ITEM POCAO1 (P:3 F:+1) <- KAUA
+[5] AVANCA 2
+[6] VAZIA <- JULIA
+[7] VOLTA 3
+[8] OURO 4 <- HEITOR
+[9] VAZIA
+[10] MONSTRO ESQUELETO2 (F:4 XP:10)
+[11] ITEM POCAO2 (P:6 F:+1)
+[12] AVANCA 3
+[13] VAZIA
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1)
+[19] AVANCA 1
+[20] VAZIA
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA
+[28] VOLTA 2
+[29] OURO 10
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA
+[42] VOLTA 4
 [FIM]
 -------------------------------
 - HEITOR: casa 8 | forca 4 | xp 0 | ouro 6
-- IRIS: casa 1 | forca 3 | xp 5 | ouro 2
+- IRIS: casa 2 | forca 3 | xp 5 | ouro 0
 - JULIA: casa 6 | forca 5 | xp 0 | ouro 0
-- KAUA: casa 2 | forca 2 | xp 0 | ouro 0
-- LIA: casa 4 | forca 4 | xp 0 | ouro 2
+- KAUA: casa 4 | forca 2 | xp 0 | ouro 0
+- LIA: casa 3 | forca 4 | xp 5 | ouro 0
 - Situacao: EM ANDAMENTO
 ===============================
 =========== RANKING ===========
 1. HEITOR (VERMELHO) | casa 8 | forca 4 | xp 0
 2. JULIA (VERDE) | casa 6 | forca 5 | xp 0
-3. LIA (PRETO) | casa 4 | forca 4 | xp 0
-4. KAUA (AMARELO) | casa 2 | forca 2 | xp 0
-5. IRIS (AZUL) | casa 1 | forca 3 | xp 5
+3. KAUA (AMARELO) | casa 4 | forca 2 | xp 0
+4. LIA (PRETO) | casa 3 | forca 4 | xp 5
+5. IRIS (AZUL) | casa 2 | forca 3 | xp 5
 ===============================
 =========== ESTADO ============
-[INICIO] <- LIA
-[0] OURO 2 <- IRIS
-[1] VAZIA
-[2] MONSTRO ESQUELETO1 (F:3 XP:5)
-[3] ITEM POCAO1 (P:3 F:+1)
-[4] AVANCA 2
-[5] VAZIA
-[6] VOLTA 3 <- KAUA
-[7] OURO 4 <- HEITOR
-[8] VAZIA
-[9] MONSTRO ESQUELETO2 (F:4 XP:10)
-[10] ITEM POCAO2 (P:6 F:+1)
-[11] AVANCA 3
-[12] VAZIA
-[13] VOLTA 4
-[14] OURO 6
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1)
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
+[INICIO]
+[1] OURO 2 <- KAUA
+[2] VAZIA <- IRIS
+[3] MONSTRO ESQUELETO1 (F:3 XP:5) <- LIA
+[4] ITEM POCAO1 (P:3 F:+1) <- JULIA
+[5] AVANCA 2
+[6] VAZIA
+[7] VOLTA 3
+[8] OURO 4 <- HEITOR
+[9] VAZIA
+[10] MONSTRO ESQUELETO2 (F:4 XP:10)
+[11] ITEM POCAO2 (P:6 F:+1)
+[12] AVANCA 3
+[13] VAZIA
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1)
+[19] AVANCA 1
+[20] VAZIA
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA
+[28] VOLTA 2
+[29] OURO 10
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA
+[42] VOLTA 4
 [FIM]
 -------------------------------
 - HEITOR: casa 8 | forca 4 | xp 0 | ouro 6
-- IRIS: casa 1 | forca 3 | xp 5 | ouro 2
+- IRIS: casa 2 | forca 3 | xp 5 | ouro 0
 - JULIA: casa 4 | forca 5 | xp 0 | ouro 0
-- KAUA: casa 7 | forca 2 | xp 0 | ouro 0
-- LIA: casa 0 | forca 4 | xp 0 | ouro 2
+- KAUA: casa 1 | forca 2 | xp 0 | ouro 0
+- LIA: casa 3 | forca 4 | xp 5 | ouro 0
 - Situacao: EM ANDAMENTO
 ===============================
 =========== RANKING ===========
 1. HEITOR (VERMELHO) | casa 8 | forca 4 | xp 0
-2. KAUA (AMARELO) | casa 7 | forca 2 | xp 0
-3. JULIA (VERDE) | casa 4 | forca 5 | xp 0
-4. IRIS (AZUL) | casa 1 | forca 3 | xp 5
-5. LIA (PRETO) | casa 0 | forca 4 | xp 0
+2. JULIA (VERDE) | casa 4 | forca 5 | xp 0
+3. LIA (PRETO) | casa 3 | forca 4 | xp 5
+4. IRIS (AZUL) | casa 2 | forca 3 | xp 5
+5. KAUA (AMARELO) | casa 1 | forca 2 | xp 0
 ===============================
 =========== ESTADO ============
-[INICIO] <- IRIS
-[0] OURO 2
-[1] VAZIA <- KAUA
-[2] MONSTRO ESQUELETO1 (F:3 XP:5) <- LIA
-[3] ITEM POCAO1 (P:3 F:+1)
-[4] AVANCA 2
-[5] VAZIA <- JULIA
-[6] VOLTA 3
-[7] OURO 4
-[8] VAZIA
-[9] MONSTRO ESQUELETO2 (F:4 XP:10)
-[10] ITEM POCAO2 (P:6 F:+1)
-[11] AVANCA 3
-[12] VAZIA <- HEITOR
-[13] VOLTA 4
-[14] OURO 6
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1)
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
+[INICIO]
+[1] OURO 2 <- IRIS
+[2] VAZIA
+[3] MONSTRO ESQUELETO1 (F:3 XP:5)
+[4] ITEM POCAO1 (P:3 F:+1) <- KAUA
+[5] AVANCA 2
+[6] VAZIA <- JULIA
+[7] VOLTA 3 <- LIA
+[8] OURO 4
+[9] VAZIA
+[10] MONSTRO ESQUELETO2 (F:4 XP:10)
+[11] ITEM POCAO2 (P:6 F:+1)
+[12] AVANCA 3
+[13] VAZIA <- HEITOR
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1)
+[19] AVANCA 1
+[20] VAZIA
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA
+[28] VOLTA 2
+[29] OURO 10
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA
+[42] VOLTA 4
 [FIM]
 -------------------------------
 - HEITOR: casa 13 | forca 5 | xp 0 | ouro 0
-- IRIS: casa 0 | forca 3 | xp 5 | ouro 2
+- IRIS: casa 1 | forca 3 | xp 5 | ouro 0
 - JULIA: casa 6 | forca 5 | xp 0 | ouro 0
-- KAUA: casa 2 | forca 2 | xp 0 | ouro 0
-- LIA: casa 3 | forca 4 | xp 5 | ouro 4
+- KAUA: casa 4 | forca 2 | xp 0 | ouro 0
+- LIA: casa 7 | forca 4 | xp 5 | ouro 0
 - Situacao: EM ANDAMENTO
 ===============================
 =========== RANKING ===========
 1. HEITOR (VERMELHO) | casa 13 | forca 5 | xp 0
-2. JULIA (VERDE) | casa 6 | forca 5 | xp 0
-3. LIA (PRETO) | casa 3 | forca 4 | xp 5
-4. KAUA (AMARELO) | casa 2 | forca 2 | xp 0
-5. IRIS (AZUL) | casa 0 | forca 3 | xp 5
+2. LIA (PRETO) | casa 7 | forca 4 | xp 5
+3. JULIA (VERDE) | casa 6 | forca 5 | xp 0
+4. KAUA (AMARELO) | casa 4 | forca 2 | xp 0
+5. IRIS (AZUL) | casa 1 | forca 3 | xp 5
 ===============================
 =========== ESTADO ============
 [INICIO]
-[0] OURO 2
-[1] VAZIA
-[2] MONSTRO ESQUELETO1 (F:3 XP:5)
-[3] ITEM POCAO1 (P:3 F:+1)
-[4] AVANCA 2
-[5] VAZIA <- KAUA
-[6] VOLTA 3 <- LIA
-[7] OURO 4
-[8] VAZIA <- IRIS
-[9] MONSTRO ESQUELETO2 (F:4 XP:10)
-[10] ITEM POCAO2 (P:6 F:+1) <- JULIA
-[11] AVANCA 3
-[12] VAZIA
-[13] VOLTA 4
-[14] OURO 6
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA <- HEITOR
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1)
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
+[1] OURO 2
+[2] VAZIA
+[3] MONSTRO ESQUELETO1 (F:3 XP:5)
+[4] ITEM POCAO1 (P:3 F:+1)
+[5] AVANCA 2
+[6] VAZIA
+[7] VOLTA 3
+[8] OURO 4 <- KAUA
+[9] VAZIA <- IRIS
+[10] MONSTRO ESQUELETO2 (F:4 XP:10) <- LIA
+[11] ITEM POCAO2 (P:6 F:+1) <- JULIA
+[12] AVANCA 3
+[13] VAZIA
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1)
+[19] AVANCA 1
+[20] VAZIA <- HEITOR
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA
+[28] VOLTA 2
+[29] OURO 10
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA
+[42] VOLTA 4
 [FIM]
 -------------------------------
 - HEITOR: casa 20 | forca 5 | xp 15 | ouro 6
-- IRIS: casa 9 | forca 3 | xp 5 | ouro 2
+- IRIS: casa 9 | forca 3 | xp 10 | ouro 4
 - JULIA: casa 11 | forca 5 | xp 10 | ouro 4
-- KAUA: casa 6 | forca 2 | xp 0 | ouro 0
-- LIA: casa 7 | forca 5 | xp 15 | ouro 1
+- KAUA: casa 8 | forca 2 | xp 0 | ouro 0
+- LIA: casa 10 | forca 4 | xp 15 | ouro 0
 - Situacao: EM ANDAMENTO
 ===============================
 =========== RANKING ===========
 1. HEITOR (VERMELHO) | casa 20 | forca 5 | xp 15
 2. JULIA (VERDE) | casa 11 | forca 5 | xp 10
-3. IRIS (AZUL) | casa 9 | forca 3 | xp 5
-4. LIA (PRETO) | casa 7 | forca 5 | xp 15
-5. KAUA (AMARELO) | casa 6 | forca 2 | xp 0
-===============================
-=========== ESTADO ============
-[INICIO] <- HEITOR
-[0] OURO 2
-[1] VAZIA <- IRIS
-[2] MONSTRO ESQUELETO1 (F:3 XP:5)
-[3] ITEM POCAO1 (P:3 F:+1) <- KAUA
-[4] AVANCA 2
-[5] VAZIA
-[6] VOLTA 3
-[7] OURO 4
-[8] VAZIA
-[9] MONSTRO ESQUELETO2 (F:4 XP:10) <- JULIA
-[10] ITEM POCAO2 (P:6 F:+1)
-[11] AVANCA 3
-[12] VAZIA
-[13] VOLTA 4
-[14] OURO 6
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1) <- LIA
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
-[FIM]
--------------------------------
-- HEITOR: casa 0 | forca 5 | xp 15 | ouro 8
-- IRIS: casa 2 | forca 3 | xp 5 | ouro 2
-- JULIA: casa 10 | forca 6 | xp 20 | ouro 1
-- KAUA: casa 4 | forca 2 | xp 0 | ouro 0
-- LIA: casa 25 | forca 5 | xp 30 | ouro 1
-- Situacao: EM ANDAMENTO
-===============================
-=========== RANKING ===========
-1. LIA (PRETO) | casa 25 | forca 5 | xp 30
-2. JULIA (VERDE) | casa 10 | forca 6 | xp 20
-3. KAUA (AMARELO) | casa 4 | forca 2 | xp 0
-4. IRIS (AZUL) | casa 2 | forca 3 | xp 5
-5. HEITOR (VERMELHO) | casa 0 | forca 5 | xp 15
+3. LIA (PRETO) | casa 10 | forca 4 | xp 15
+4. IRIS (AZUL) | casa 9 | forca 3 | xp 10
+5. KAUA (AMARELO) | casa 8 | forca 2 | xp 0
 ===============================
 =========== ESTADO ============
 [INICIO]
-[0] OURO 2 <- IRIS
-[1] VAZIA
-[2] MONSTRO ESQUELETO1 (F:3 XP:5)
-[3] ITEM POCAO1 (P:3 F:+1)
-[4] AVANCA 2
-[5] VAZIA
-[6] VOLTA 3
-[7] OURO 4 <- LIA
-[8] VAZIA
-[9] MONSTRO ESQUELETO2 (F:4 XP:10)
-[10] ITEM POCAO2 (P:6 F:+1)
-[11] AVANCA 3
-[12] VAZIA
-[13] VOLTA 4
-[14] OURO 6 <- KAUA
-[15] VAZIA
-[16] MONSTRO ESQUELETO3 (F:5 XP:15)
-[17] ITEM POCAO3 (P:9 F:+1)
-[18] AVANCA 1
-[19] VAZIA <- JULIA
-[20] VOLTA 5
-[21] OURO 8
-[22] VAZIA
-[23] MONSTRO ESQUELETO4 (F:6 XP:20)
-[24] ITEM POCAO4 (P:12 F:+1)
-[25] AVANCA 2
-[26] VAZIA
-[27] VOLTA 2
-[28] OURO 10
-[29] VAZIA
-[30] MONSTRO ESQUELETO5 (F:7 XP:25)
-[31] ITEM POCAO5 (P:15 F:+1)
-[32] AVANCA 3
-[33] VAZIA
-[34] VOLTA 3
-[35] OURO 12
-[36] VAZIA
-[37] MONSTRO ESQUELETO6 (F:8 XP:30)
-[38] ITEM POCAO6 (P:18 F:+1)
-[39] AVANCA 1
-[40] VAZIA
-[41] VOLTA 4
+[1] OURO 2
+[2] VAZIA
+[3] MONSTRO ESQUELETO1 (F:3 XP:5)
+[4] ITEM POCAO1 (P:3 F:+1)
+[5] AVANCA 2
+[6] VAZIA
+[7] VOLTA 3
+[8] OURO 4
+[9] VAZIA
+[10] MONSTRO ESQUELETO2 (F:4 XP:10)
+[11] ITEM POCAO2 (P:6 F:+1)
+[12] AVANCA 3
+[13] VAZIA
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1) <- IRIS
+[19] AVANCA 1
+[20] VAZIA <- KAUA
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA <- LIA
+[28] VOLTA 2
+[29] OURO 10 <- JULIA
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA <- HEITOR
+[42] VOLTA 4
+[FIM]
+-------------------------------
+- HEITOR: casa 41 | forca 5 | xp 15 | ouro 6
+- IRIS: casa 18 | forca 4 | xp 10 | ouro 1
+- JULIA: casa 29 | forca 5 | xp 10 | ouro 14
+- KAUA: casa 20 | forca 2 | xp 0 | ouro 0
+- LIA: casa 27 | forca 4 | xp 15 | ouro 8
+- Situacao: EM ANDAMENTO
+===============================
+=========== RANKING ===========
+1. HEITOR (VERMELHO) | casa 41 | forca 5 | xp 15
+2. JULIA (VERDE) | casa 29 | forca 5 | xp 10
+3. LIA (PRETO) | casa 27 | forca 4 | xp 15
+4. KAUA (AMARELO) | casa 20 | forca 2 | xp 0
+5. IRIS (AZUL) | casa 18 | forca 4 | xp 10
+===============================
+=========== ESTADO ============
+[INICIO]
+[1] OURO 2
+[2] VAZIA
+[3] MONSTRO ESQUELETO1 (F:3 XP:5)
+[4] ITEM POCAO1 (P:3 F:+1)
+[5] AVANCA 2
+[6] VAZIA
+[7] VOLTA 3
+[8] OURO 4
+[9] VAZIA
+[10] MONSTRO ESQUELETO2 (F:4 XP:10)
+[11] ITEM POCAO2 (P:6 F:+1)
+[12] AVANCA 3
+[13] VAZIA
+[14] VOLTA 4
+[15] OURO 6
+[16] VAZIA
+[17] MONSTRO ESQUELETO3 (F:5 XP:15)
+[18] ITEM POCAO3 (P:9 F:+1) <- IRIS
+[19] AVANCA 1
+[20] VAZIA <- KAUA
+[21] VOLTA 5
+[22] OURO 8
+[23] VAZIA
+[24] MONSTRO ESQUELETO4 (F:6 XP:20)
+[25] ITEM POCAO4 (P:12 F:+1)
+[26] AVANCA 2
+[27] VAZIA <- LIA
+[28] VOLTA 2
+[29] OURO 10 <- JULIA
+[30] VAZIA
+[31] MONSTRO ESQUELETO5 (F:7 XP:25)
+[32] ITEM POCAO5 (P:15 F:+1)
+[33] AVANCA 3
+[34] VAZIA
+[35] VOLTA 3
+[36] OURO 12
+[37] VAZIA
+[38] MONSTRO ESQUELETO6 (F:8 XP:30)
+[39] ITEM POCAO6 (P:18 F:+1)
+[40] AVANCA 1
+[41] VAZIA
+[42] VOLTA 4
 [FIM] <- HEITOR
 -------------------------------
-- HEITOR: casa 43 | forca 7 | xp 35 | ouro 21
-- IRIS: casa 1 | forca 3 | xp 15 | ouro 12
-- JULIA: casa 20 | forca 6 | xp 75 | ouro 5
-- KAUA: casa 15 | forca 5 | xp 0 | ouro 8
-- LIA: casa 8 | forca 6 | xp 35 | ouro 8
+- HEITOR: casa 43 | forca 5 | xp 15 | ouro 6
+- IRIS: casa 18 | forca 4 | xp 10 | ouro 1
+- JULIA: casa 29 | forca 5 | xp 10 | ouro 14
+- KAUA: casa 20 | forca 2 | xp 0 | ouro 0
+- LIA: casa 27 | forca 4 | xp 15 | ouro 8
 - Situacao: VENCEDOR HEITOR
 ===============================
 =========== RANKING ===========
-1. HEITOR (VERMELHO) | casa 43 | forca 7 | xp 35
-2. JULIA (VERDE) | casa 20 | forca 6 | xp 75
-3. KAUA (AMARELO) | casa 15 | forca 5 | xp 0
-4. LIA (PRETO) | casa 8 | forca 6 | xp 35
-5. IRIS (AZUL) | casa 1 | forca 3 | xp 15
+1. HEITOR (VERMELHO) | casa 43 | forca 5 | xp 15
+2. JULIA (VERDE) | casa 29 | forca 5 | xp 10
+3. LIA (PRETO) | casa 27 | forca 4 | xp 15
+4. KAUA (AMARELO) | casa 20 | forca 2 | xp 0
+5. IRIS (AZUL) | casa 18 | forca 4 | xp 10
 ===============================
 ========= RELATORIO ===========
 - Celulas do mapa: 42
 - Jogadores: 5
-- Jogadas totais: 176
-- Disputas: 25
-- Monstros derrotados: 15
+- Jogadas totais: 86
+- Disputas: 30
+- Monstros derrotados: 6
 - Situacao: VENCEDOR HEITOR
 -------------------------------
-- HEITOR: jogadas 36 | disputas vencidas 4 | forca 7 | xp 35 | ouro 21
-- IRIS: jogadas 35 | disputas vencidas 9 | forca 3 | xp 15 | ouro 12
-- JULIA: jogadas 35 | disputas vencidas 8 | forca 6 | xp 75 | ouro 5
-- KAUA: jogadas 35 | disputas vencidas 0 | forca 5 | xp 0 | ouro 8
-- LIA: jogadas 35 | disputas vencidas 4 | forca 6 | xp 35 | ouro 8
+- HEITOR: jogadas 18 | disputas vencidas 1 | forca 5 | xp 15 | ouro 6
+- IRIS: jogadas 17 | disputas vencidas 3 | forca 4 | xp 10 | ouro 1
+- JULIA: jogadas 17 | disputas vencidas 18 | forca 5 | xp 10 | ouro 14
+- KAUA: jogadas 17 | disputas vencidas 0 | forca 2 | xp 0 | ouro 0
+- LIA: jogadas 17 | disputas vencidas 8 | forca 4 | xp 15 | ouro 8
 ===============================

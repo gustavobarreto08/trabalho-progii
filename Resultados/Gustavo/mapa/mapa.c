@@ -18,6 +18,10 @@ struct Mapa{
  */
 Mapa *criaMapa(){
     Mapa *m = malloc(sizeof(struct Mapa));
+    if(m == NULL){
+        perror("ERRO ALOC MAPA\n");
+        exit(1);
+    }
     m->celulas = NULL;
     m->qtdCelulas = 0;
     return m;
@@ -36,7 +40,12 @@ Mapa *criaMapa(){
 void insereCelulaMapa(Mapa *m, void *acao, func_ptr_executa executa, func_ptr_imprime imprime, func_ptr_desaloca desaloca){
     m->qtdCelulas++;
     m->celulas = realloc(m->celulas, m->qtdCelulas * sizeof(*(m->celulas)));
-    m->celulas[m->qtdCelulas - 1] = criaCelula(acao, executa, imprime, desaloca);
+    if(m->celulas == NULL){
+        perror("ERRO REALLOC CELULAS MAPA\n");
+        exit(1);
+    }
+    Celula *c = criaCelula(acao, executa, imprime, desaloca);
+    m->celulas[m->qtdCelulas - 1] = c;
 }
 
 /**
@@ -66,7 +75,7 @@ int obtemPosicaoFimMapa(Mapa *m){
  * @return Célula da casa ou NULL se a posição for o Início, o Fim ou inválida
  */
 Celula *obtemCelulaMapa(Mapa *m, int posicao){
-    if(posicao < 1 || posicao == m->qtdCelulas){
+    if(posicao < 1 || posicao > m->qtdCelulas){
         return NULL;
     }
     else{
@@ -82,7 +91,7 @@ Celula *obtemCelulaMapa(Mapa *m, int posicao){
  * @return Jogador ocupante ou NULL
  */
 Jogador *obtemOcupanteMapa(Mapa *m, int posicao){
-    if(posicao < 1 || posicao == m->qtdCelulas){
+    if(posicao < 1 || posicao > m->qtdCelulas){
         return NULL;
     }
     else{
@@ -98,7 +107,7 @@ Jogador *obtemOcupanteMapa(Mapa *m, int posicao){
  */
 void retiraJogadorMapa(Mapa *m, Jogador *j){
     int posicaoJogador = obtemPosicaoJogador(j);
-    if(posicaoJogador >= 1 && posicaoJogador <= m->qtdCelulas){
+    if(posicaoJogador > 0 && posicaoJogador <= m->qtdCelulas){
         if(obtemOcupanteCelula(m->celulas[posicaoJogador-1]) == j){
             defineOcupanteCelula(m->celulas[posicaoJogador-1], NULL);
         }
@@ -115,8 +124,8 @@ void retiraJogadorMapa(Mapa *m, Jogador *j){
  */
 void moveJogadorMapa(Mapa *m, Jogador *j, int posicao){
     retiraJogadorMapa(m,j);
-    definePosicaoJogador(j, posicao);
-    if(posicao >= 1 && posicao < m->qtdCelulas){
+    definePosicaoJogador(j,posicao);
+    if(posicao > 0 && posicao <= m->qtdCelulas){
         defineOcupanteCelula(m->celulas[posicao-1], j);
     }
 }
@@ -130,11 +139,12 @@ void moveJogadorMapa(Mapa *m, Jogador *j, int posicao){
  * @param origem Casa a partir da qual o jogador recua (a casa em que ele estava)
  */
 void recuaJogadorMapa(Mapa *m, Jogador *j, int origem){
-    for(int i = origem; i > 0; i--){
-        if(estaOcupadaCelula(m->celulas[i])){
+    for(int i = origem-1; i > 0; i--){
+        if(estaOcupadaCelula(m->celulas[i-1])){
             continue;
         }
         moveJogadorMapa(m, j, i);
+        return;
     }
     moveJogadorMapa(m, j, 0);
 }
@@ -145,7 +155,7 @@ void recuaJogadorMapa(Mapa *m, Jogador *j, int origem){
  */
 void imprimeCelulasMapa(Mapa *m){
     for(int i = 0; i < m->qtdCelulas; i++){
-        imprimeCelula(m->celulas[i],i);
+        imprimeCelula(m->celulas[i],i+1);
     }
 }
 

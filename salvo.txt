@@ -1,0 +1,69 @@
+if(ChegouFinalJogador(j, posicaoJogador)){
+            moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], obtemPosicaoFimMapa(j->mapa));
+            j->vencedor = j->jogadores[JogadorDaVez];
+            return;
+        }
+        cDisputa = obtemCelulaMapa(j->mapa, posicaoJogador);
+        if(estaOcupadaCelula(cDisputa)){
+            ocupante = obtemOcupanteCelula(cDisputa);
+            if(venceDisputaJogador( j->jogadores[JogadorDaVez], ocupante )){
+                moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador);
+                recuaJogadorMapa(j->mapa, ocupante, posicaoJogador);
+                saidaCelula = executaAcaoCelula(cDisputa, j->jogadores[JogadorDaVez]);
+                if(saidaCelula != 0){
+                    if(ChegouFinalJogador(j, posicaoJogador+saidaCelula)){
+                        moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], obtemPosicaoFimMapa(j->mapa));
+                        j->vencedor = j->jogadores[JogadorDaVez];
+                        return;
+                    }
+                    if((posicaoJogador + saidaCelula) == 0){
+                        moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], 0);
+                        return;
+                    }
+                    cDisputa = obtemCelulaMapa(j->mapa, posicaoJogador + saidaCelula);
+                    if(estaOcupadaCelula(cDisputa)){
+                        ocupante = obtemOcupanteCelula(cDisputa);
+                        if(venceDisputaJogador(j->jogadores[JogadorDaVez], ocupante)){
+                            moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador+saidaCelula);
+                            recuaJogadorMapa(j->mapa, ocupante, posicaoJogador+saidaCelula);
+                        }
+                        else{
+                            recuaJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador+saidaCelula);
+                        }
+                    }
+                }
+            }
+            else{
+                recuaJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador);
+            }
+        }
+        else{
+            moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador);
+            saidaCelula = executaAcaoCelula(cDisputa, j->jogadores[JogadorDaVez]);
+            if(ChegouFinalJogador(j, posicaoJogador+saidaCelula)){
+                moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], obtemPosicaoFimMapa(j->mapa));
+                j->vencedor = j->jogadores[JogadorDaVez];
+                return;
+            }
+            if(saidaCelula != 0){
+                if(ChegouFinalJogador(j, posicaoJogador+saidaCelula)){
+                    moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], obtemPosicaoFimMapa(j->mapa));
+                    j->vencedor = j->jogadores[JogadorDaVez];
+                    return;
+                }
+                cDisputa = obtemCelulaMapa(j->mapa, posicaoJogador + saidaCelula);
+                if(estaOcupadaCelula(cDisputa)){
+                    ocupante = obtemOcupanteCelula(cDisputa);
+                    if(venceDisputaJogador(j->jogadores[JogadorDaVez], ocupante)){
+                        moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador+saidaCelula);
+                        recuaJogadorMapa(j->mapa, ocupante, posicaoJogador+saidaCelula);
+                    }
+                    else{
+                        recuaJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador+saidaCelula);
+                    }
+                }
+                else{
+                    moveJogadorMapa(j->mapa, j->jogadores[JogadorDaVez], posicaoJogador + saidaCelula);
+                }
+            }
+        }
